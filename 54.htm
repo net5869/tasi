@@ -3,49 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charts Display</title>
+    <title>Welcome Page</title>
     <style>
-        body {
-            display: flex; /* Flex container for the whole body */
-            flex-direction: column; /* Stacking content vertically */
-            align-items: center; /* Centering content horizontally */
-            justify-content: center; /* Centering content vertically */
-            height: 100vh; /* Full viewport height */
-            margin: 0; /* Removing default margin */
-            padding: 20px; /* Padding around the content */
-        }
-        .row {
-            display: flex; /* Flex container for the row */
-            justify-content: center; /* Centering the charts in the row */
-            width: 100%; /* Row takes full width of the body */
-            margin-top: 20px; /* Space between rows */
-        }
-        iframe {
-            border: none; /* Removing the iframe border */
-        }
-        .large-chart {
-            width: 856px; /* Width of the first chart */
-            height: 847px; /* Height of the first chart */
-        }
-        .small-chart {
-            width: 443px; /* Width of the smaller charts */
-            height: 546px; /* Height of the second chart */
-        }
-        .smaller-chart {
-            width: 443px; /* Width of the smaller charts */
-            height: 442px; /* Height of the third chart */
+        /* This CSS centers the text vertically and horizontally */
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
         }
     </style>
 </head>
 <body>
-    <!-- Large chart on top -->
-    <iframe class="large-chart" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRZ0sHxqDi4wqim-6Iixs5VKEXl1IIeBmbXHXsCOkCwp_fwE-6PET_lh7cnqH8KrAaMVGUQtkVOmJkd/pubchart?oid=1931524022&format=interactive"></iframe>
-    <!-- Row for the smaller charts -->
-    <div class="row">
-        <!-- Second chart -->
-        <iframe class="small-chart" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRZ0sHxqDi4wqim-6Iixs5VKEXl1IIeBmbXHXsCOkCwp_fwE-6PET_lh7cnqH8KrAaMVGUQtkVOmJkd/pubchart?oid=493863609&format=interactive"></iframe>
-        <!-- Third chart -->
-        <iframe class="smaller-chart" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRZ0sHxqDi4wqim-6Iixs5VKEXl1IIeBmbXHXsCOkCwp_fwE-6PET_lh7cnqH8KrAaMVGUQtkVOmJkd/pubchart?oid=537945045&format=interactive"></iframe>
-    </div>
+    <h1>Welcome</h1> <!-- Displaying "Welcome" in the middle of the page -->
 </body>
 </html>
